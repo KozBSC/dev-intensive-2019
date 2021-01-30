@@ -49,7 +49,7 @@ object Utils {
             "ь" to "",
             "э" to "e",
             "ю" to "yu",
-            "я" to "ya",
+            "я" to "ya"
         )
         var res = ""
         payload.replace(" ", divider).forEach { c ->
